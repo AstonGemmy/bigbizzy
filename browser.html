@@ -1,0 +1,85 @@
+<!Doctype HTML>
+<Html Lang="En">
+	
+	<!--Head Begins-->
+	<Head>
+		
+		<!-- Meta -->
+		<meta name="theme-color" content="">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:description" name="description" content="Big Bizzy">
+		<meta property="og:author" name="author" content="Aston Gemmy O'naire, Ilori Jide">
+		<meta property="og:keywords" name="keywords" content="Business, Artisans, Buyers, Sellers, Online Market, Sales"/>
+		<meta property="og:image" name="image" content="/images/thumbnails/thumbnail.png"/>
+		<title> Browser | Big Bizzy </title>
+		<!-- Meta Ends -->
+		
+		<!-- core CSS -->
+		<link type="text/css" href="css/all.css" rel="stylesheet">
+		<link type="text/css" href="css/fonts.css" rel="stylesheet">
+		<link type="text/css" href="css/colorVariables.css" rel="stylesheet">
+		<link type="text/css" href="css/main.css" rel="stylesheet">
+		<link type="text/css" href="css/main_responsive.css" rel="stylesheet">
+		<link type="text/css" href="css/browser.css" rel="stylesheet">
+		<link type="text/css" href="css/browser_responsive.css" rel="stylesheet">
+		<link type="text/css" href="css/animate.css" rel="stylesheet">
+		<!-- Core CSS Ends -->
+		
+		<!-- Site Icon -->
+		<link rel="shortcut icon" href="images/favicon/logo.png">
+		<!-- Site Icon Ends -->
+		
+		<link rel="manifest" href="manifest.json">
+        
+	</Head>
+	<!--Head Ends-->
+	
+	<!-- Body -->
+	<body>
+		
+		<!-- Includes Header Contents -->
+		<div class="header" data-include-html="header.html"></div>
+		
+		<div class="searchResults-AREA" id="searchResults-AREA">
+			
+			<div class="filter-arrows arrow-left" id="arrow-left"><i class="fa fa-arrow-left"></i></div>
+			<div class="filter-arrows arrow-right" id="arrow-right"><i class="fa fa-arrow-right"></i></div>
+			
+			<div class="" id="searchBusiness-DATA">
+				<div class="data" id="data"></div>				
+				<div class="fetchFooter" id="fetchFooter"></div>			
+			</div>
+			
+		</div>
+		
+		<div class="" id="businessOverview-AREA">			
+			<div class="overviewClose-btn">
+				<i class="fa fa-times"></i>
+			</div>
+			<div class="businessOverview" id="businessOverview">
+				<div class="businessOverviewPlaceholder">
+					<span class="alert">
+						<span class="alert-container">Select an item on the side to have a preview</span>
+					</span>
+					<div class="newsletter">
+						<span class="newsletterText">Never miss any new Business updates!</span>
+						<div class="newsletter_input"><input type="email" id="newsletter" placeholder="Type your email..."/></div>
+						<button type="submit" id="newsletterSubscribe">Subscribe</button>
+					</div>
+				</div>
+			</div>			
+			<div class="overviewFooter" id="">Footer</div>			
+		</div>
+		
+		<input type="hidden" value="34" class="" id="business_id">
+		
+		<!-- Scripts -->
+		<script type="module" src="js/main.js"></script>
+		<script type="module" src="js/browser.js"></script>
+		<!-- Scripts Ends -->
+		
+	</body>
+	<!-- Body Ends -->	
+	
+</html>

@@ -1,0 +1,15 @@
+{
+  "short_name": "Big Bizzy",
+  "name": "Big Bizzy",
+  "icons": [
+    {
+      "src": "images/thumbnails/thumbnail.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#88278C",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

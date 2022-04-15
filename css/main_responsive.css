@@ -1,0 +1,418 @@
+/* Small Laptop Screen Rules */
+
+	@media screen and (max-width: 1024px) {
+		
+		/* Main Classes */
+		
+			.from-tablet-only {display:block;}
+			.desktop-only {display:none;}
+			
+		/* Main Classes Ends */
+		
+		/* Header Accesories */
+
+			.nav-link {
+				width:60%;
+			}
+
+		/* Header Accesories Ends */
+
+		
+	}
+
+/* Small Laptop Screen Rules Ends */
+
+
+/* Tablet Screen Rules */
+
+	@media screen and (max-width: 799px) {
+		
+		/* Main Classes */
+
+		
+		/* Main Classes Ends */
+		
+		/* Header Accesories */
+
+			.nav-link {
+				width:100%;
+			}
+
+		/* Header Accesories Ends */
+
+		
+	}
+
+/* Tablet Screen Rules Ends */
+
+/* Mobile Screen Rules */
+
+	@media screen and (max-width: 701px) {
+		
+		/* Main Classes */
+			
+			.select {
+				float:none;
+				width:100%;
+				height:90px;
+				padding:0;
+				position:relative;
+			}
+			
+			.select:hover, .select:hover select {
+				background-color:var(--transparentColor);
+			}
+	
+			.select select {
+				padding:30px 0px 0px 75px;
+				height:100%;
+				background-color:transparent;
+				position:absolute;
+				top:0;
+				left:0;
+				background-image:url('');
+			}
+			
+			.alert {
+			    width:calc(100% - 25px);
+			    margin:32px 5px 32px 20px;
+			}
+			
+			.alert-container {
+			    padding:16px 16px 16px 25px;
+			    font-size:15px;
+			}
+			
+			.alert:before {
+			    top:9px;
+			}
+			
+			.alert:after, .alert:before {
+			    text-align:center;
+			    line-height:18px;
+			}
+	
+			
+		/* Main Classes Ends */
+		
+		/* Header Accesories */
+
+			.header {
+				position:absolute;
+				top:0px;
+				left:0;
+				z-index:1;
+				width:100%;
+				background-color:var(--BgColor);
+				height:60px;
+			    color:var(--textColor);
+			    box-shadow: -3px -3px 10px 5px var(--whiteColor), 0px 3px 10px 0px var(--blackColor);
+			}
+			
+			#hamburger {
+			    top:13px;
+				color:var(--hamburgerTextColor);
+				left:12px;
+				background-color:var(--hamburgerBgColor);
+				box-shadow: -5px -5px 20px var(--hamburgerShadowColor_top), 5px 5px 20px var(--hamburgerShadowColor_bottom);
+			}
+
+			.nav-link-container {
+				margin:0;
+				width:80%;
+				float:none;
+				height:calc(100% - 50px);
+				position:fixed;
+				overflow-x:hidden;
+				overflow-y:auto;
+				background-color:var(--navbarLinkContainerBgColor);
+				top:50px;
+				left:-80%;
+			}
+			
+			.settings {
+				position:relative;
+				top:auto;
+				padding-top:0px;
+				width:100%;
+				left:0;
+				height:auto;
+			}
+			
+			.mobile-only {display:block;}			
+			.mobile-only-inline {display:inline-block;}
+			
+			.branding {
+				width:80%;
+				left:-80%;
+			}
+			
+			.showSettings {
+			    left:0;
+			}
+			
+			.hideSettings {
+				left:-80%;
+			}
+			
+			.close {
+				left:86.5%;
+			}
+			
+			.nav-link {
+				margin:20px 0px 0px 0px;
+				position:relative;
+				width:100%;
+				float:none;
+				background-color:var(--navbarLinkContainerBgColor);
+				height:auto;
+				line-height:auto;
+			}
+
+			.nav-link a {
+				background-color:var(--navbarLinkContainerBgColor);
+				width:100%;
+				display:block;
+				padding:0px 5px 0px 30px;
+				margin:0px;
+				color:var(--textColor_alt);
+				border-radius:0px;
+				box-shadow: -3px -3px 5px -1px rgba(255,255,255,0), 3px 4px 5px -1px rgba(0,0,0,0);
+			}
+
+			.userData {
+				max-width:65px;
+				z-index:1;
+				position:absolute;
+				height:60px;
+				right:0px;
+				top:0px;
+				display:block;
+				line-height:auto;
+				padding:7.5px 10px;
+				color:var(--textColor_alt);
+				background-color:var(--transparentColor);
+				box-shadow: -3px -3px 5px -1px rgba(255,255,255,0), 3px 4px 5px -1px rgba(0,0,0,0);
+			}
+			
+			.userData:hover {
+				max-width:250px;
+				height:auto;
+			}
+			
+			.userData-wrap {
+				display:block;
+				position:relative;
+				width:100%;
+				height:auto;
+				line-height:auto;
+				border-radius:4px;
+				background-color:var(--transparentColor);
+				margin:0px;
+				color:var(--textColor_alt);
+				box-shadow: -5px -5px 5px -2px rgba(0,0,0,0.0), 5px 5px 3px -3px rgba(0,0,0,0.0);
+			}
+
+			.userName {
+				line-height:auto;			
+				white-space:nowrap;
+				text-overflow:ellipsis;
+				overflow:hidden;
+				margin:5px 0px 0px 0px;
+				position:relative;
+				height:auto;
+				display:none;
+				width:100%;
+				color:var(--textColor);
+				border:1px solid var(--navbarUserDataBorderColor);
+				border-radius:4px;
+				background-color:var(--navbarUserDataNameBgColor);
+			}
+			
+			.userData-wrap:hover .userName {
+				display:block;
+			}
+			
+			.userData-wrap:hover {
+				box-shadow: -5px -5px 5px -2px rgba(0,0,0,0.0), 5px 5px 3px -3px rgba(0,0,0,0.1);
+				background-color:var(--navbarUserDataBgColor);
+			}
+			
+			.userData-fa {
+				margin:5px 5px 5px 10px;
+				color:rgba(102,102,102,1);
+				background-color:var(--navbarFaBgColor);
+				box-shadow: -3px -3px 5px -1px var(--navbarLinkShadowColor_top);, 3px 4px 5px -1px var(--navbarLinkShadowColor_bottom);
+				border:1px solid rgba(0,0,0,.0);
+			}
+			
+			.userData-profile-picture {
+				margin:5px 5px 5px 6px;
+				box-shadow: -3px -3px 5px -1px var(--navbarProfilePicShadowColor_top), 3px 4px 5px -1px var(navbarProfilePicShadowColor_bottom);
+				border:1px solid rgba(0,0,0,.0);
+				width:35px;
+				height:35px;
+			}
+			
+		/* Header Accesories Ends */
+		
+		/* Filter And Sorting Accessories */
+			
+			.refine-data {
+			    bottom: 0px;
+				left:0;
+				height:80px;
+			}	
+			
+			.refine-data label {
+				display:block;
+			}
+	
+			.refine-data-container {
+				width: calc((100% - 50px) / 3);
+				height:60px;
+				border-radius:0px;
+				margin:10px 8px;
+				border:0px solid rgba(242,242,242,1);
+				background-color:var(--themeColor);
+			}
+			
+			.filter-sort {
+				display:none;
+				height:calc(100% - 140px);
+				width:100%;
+				position:fixed;
+				top:60px;
+				left:0;
+				overflow-y:auto;
+				float: none;
+				padding:0px;
+				border:0px solid var(--themeColor);
+			}
+			
+			.fscreenToggle, .triggerSearch {
+				display:block;
+				float: left;
+				text-align: center;
+				overflow:hidden;
+			}		
+			
+			.filter-header, .sort-header {
+				width: 100%;
+				position:relative;
+				height:auto;
+				float: none;
+				text-align:left;
+				padding:10px 0px 10px 10%;
+			}
+			
+			.filter-sort select {
+				margin:0px;
+				float: none;
+			}
+			
+			.refine-data-container:hover, .triggerSearch-header:hover, .fscreenToggle-header:hover {
+			    border-bottom:2px solid var(--themeColor);
+				border-radius:0;
+			}
+			
+			
+		/* Filter And Sorting Accessories Ends */
+		
+		/* Data Container Accesories */
+		
+			.fetchHeader {
+			    /* display:none; */
+				border-top:1px solid var(--brandingBorderColor);
+				width:100%;
+				height:80px!important;
+				position:fixed!important;
+				left:0;				
+				top:auto;
+				bottom:-80px;
+			}
+			
+			.fetchFooter {
+			    position:relative;
+			}
+			
+			.bis_content {
+				border: 0;
+			}
+			
+			.data {float:left;width:100%;margin:0;}
+			
+			.emptyResponse {
+			    font-size:15px;
+			    padding:24px 16px;
+			}
+			
+			.options-Preview {
+				line-height:210%;
+				margin:auto;
+			}
+			
+			.popup-Preview {
+				left:5%;
+				top:20px;
+				width:90%;
+				height:calc(100% - 40px);
+			}
+			
+			.options-previewClose-btn {
+				display:block;
+			}
+			
+			.filter-header i, .sort-header i, .refine-data-button i, .triggerSearch-header i, .fscreenToggle-header i {
+				margin-right:20px;
+			}
+		
+		/* Data Container Accesories Ends */
+	}
+
+/* Mobile Screen Rules Ends */
+
+/* Smaller Mobile Screen Rules */
+
+	@media screen and (max-width: 680px) {
+		
+		/* Header Accesories */
+
+			.userData {
+				max-width:60px;
+				right:0px;
+			}
+
+		/* Header Accesories Ends */
+		
+		/* Search Accesories */
+			
+		/* Search Accesories Ends */
+		
+		/* Data Container Accesories */
+			
+			.refine-data-button i, .triggerSearch-header i, .fscreenToggle-header i {
+				display:block;
+				width:100%;
+				line-height:200%;
+				margin-right:auto;
+			}
+			
+			.refine-data-button span, .triggerSearch-header span, .fscreenToggle-header span {
+				display:block;
+				font-size:12px;
+				width:100%;
+				line-height:100%;
+			}
+			
+		/* Data Container Accesories Ends */
+		
+		/* Search Accesories Animations Ends */
+			
+			
+			
+		/* Search Accesories Animations Ends */
+		
+	}
+
+/* Smaller Mobile Screen Rules Ends */

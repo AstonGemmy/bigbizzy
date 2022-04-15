@@ -1,0 +1,917 @@
+/* Light Mode Enabled from Browser/Device/Site Settings */
+	
+	/* Desktop Screen */
+		
+		:root {
+			
+			/*	Main	Styles	*/
+			
+				--textColor:#5F6369;
+				--textColor_alt:rgba(102,102,102,1);
+				--BgColor:#FFFFFF;
+				--themeColor:#88278C;
+				--themeColorLight:rgba(136,39,140,0.9);
+				--anchorColor:var(--themeColor);
+				--overlayBgColor:rgba(0,0,0,0.7);
+				
+			/*	Main	Styles Ends	*/
+
+			/*	Select and Options input fields	*/
+			
+				--selectBgColor:#FFFFFF;
+				--optionBgColor:#FFFFFF;
+				--selectHoverColor:#F1F1F1;
+				
+			/*	Select and Options input fields Ends		*/
+			
+			/*	Navbar and components	*/
+				
+				--navbarGradientColor_left:#E6E6E6;
+				--navbarGradientColor_right:rgba(255,255,255,1);
+				
+				--navbarLinkContainerBgColor:rgba(242,242,242,1);
+				--navbarLinkTextColor:#88278C;
+				--navbarUserDataBgColor:rgba(242,242,242,1);
+				--navbarUserDataBorderColor:rgba(242,242,242,1);
+				--hamburgerTextColor:#88278C;
+				--hamburgerBgColor:rgba(0,0,0,0.05);
+				--hamburgerShadowColor_top:#FFFFFF;
+				--hamburgerShadowColor_bottom:rgba(0,0,0,0.3);
+				
+				--navbarProfilePicShadowColor_top:rgba(255,255,255,0.3);		
+				--navbarProfilePicShadowColor_bottom:#BABECC;
+				
+				--navbarLinkShadowColor_top:#FFFFFF;
+				--navbarLinkShadowColor_bottom:rgba(0,0,0,0.3);
+				
+				--brandingBorderColor:#F2F2F2;
+				
+				--navbarFaBgColor:rgba(242,242,242,0.2);
+				
+				--pageHeaderColor:rgba(0,0,0,1);
+				--pageHeaderBgColor:transparent;
+				
+				
+				--settingsBgColor:#FFFFFF;
+				--closeTextColor:rgba(102,102,102,1);
+				--closeBgColor:rgba(242,242,242,1);
+				--closeShadowColor_top:rgba(242,242,242,1);
+				--closeShadowColor_bottom:rgba(0,0,0,0.9);
+			
+			/*	Navbar and components Ends	*/
+			
+			/*	Bisiness contents and components	*/
+			
+				--bisContentBorderColor:rgba(102,102,102,0.2);
+				
+				--filterHeaderGradientColor_left:#FFFFFF;
+				--filterHeaderGradientColor_right:rgba(242,242,242,1);
+				
+			/*	Bisiness contents and components Ends	*/		
+			
+			/*	Scrollbar components	*/
+			
+				--scrollbarTrackShadowColor:rgba(0,0,0,0.1);
+				--scrollbarTrackBgColor:#FFFFFF;
+				
+			/*	Scrollbar components Ends	*/
+			
+			/*	Ripple animation	*/
+				--rippleColor:rgba(0,0,0,0.25);
+			/*	Ripple animation Ends	*/		
+			
+			/*	Loading Animation Colours	*/
+				--annBgColor:red;
+				--ann1BgColor:black;
+				--ann2BgColor:#007BFF;
+				--ann3BgColor:green;
+				--ann4BgColor:yellow;
+			/*	Loading Animation Colours Ends		*/
+			
+			
+			/*	Others	*/
+				--blackColor:black;
+				--transparentColor:transparent;
+				
+				--optionsPopupBgColor:rgba(255,255,255,1);
+				
+				--popupBgColor:rgba(255,255,255,1);
+				--previewButtonBgColor:rgba(242,242,242,1);
+				
+				--checkBoxBgColor:rgba(0,0,0,0.2);
+				--checkBoxBorderColor:rgba(0,0,0,0);
+				--checkBoxHoverColor:rgba(255,255,255,0.6);
+				--checkBoxTextColor:#FFFFFF;
+			/*	Others Ends	*/
+			
+			/*	IndexPage	*/
+				
+				--indexSearchBgColor:rgba(242,242,242,1);
+				
+				--indexSearchBoxShadowColor_top:transparent;
+				--indexSearchBoxShadowColor_bottom:transparent;
+				
+				--indexSearchButtonTextColor:var(--textColor_alt);
+				--indexSearchButtonBgColor:transparent;
+				
+				--indexSearchButtonShadowColor_top:transparent;
+				--indexSearchButtonShadowColor_bottom:transparent;
+				
+				--exploreBtnTextColor:#88278C;
+				--exploreBtnBgColor:rgba(242,242,242,1);
+				--searchContainerBgColor:rgba(255,255,255,1);
+				--searchContainerBgColor_animate:rgba(242,242,242,1);
+				
+				--brandLogoBgColor:rgba(242,242,242,1);
+				--brandLogoShadowColor_top:rgba(255,255,255,1);		
+				--brandLogoShadowColor_bottom:#BABECC;
+				
+			/*	Index Page Ends	*/
+			
+			
+			/*	Browser Page	*/
+			
+				--ceoPictureBgColor:rgba(136,39,140,.05);
+				--ceoPictureBgShadowColor_top:rgba(136,39,140,0);
+				--ceoPictureBgShadowColor_bottom:rgba(136,39,140,.5);
+				
+				--ceoPictureBgColor:rgba(136,39,140,.05);
+				
+				--bisOverviewBorderColor:rgba(102,102,102,0.2);
+				
+			/*	Browser Page Ends	*/
+			
+			/*	Profile Page	*/
+			
+			--bis-name-Color:var(--anchorColor);
+				--O-C-statusColor:#FFFFFF;
+				--O-C-statusBgColor:#88278C;
+				
+				--map-direction-link-Color:var(--anchorColor);
+				--map-direction-i-Color:#423243;
+				--map-direction-i-BorderColor:#F1F1F1;
+				--map-direction-i-BgColor:#F1F1F1;
+				
+				--view-bis-image-Color:#FFFFFF;
+				--view-bis-image-BgColor:#88278C;
+				--bis-graphics-BgColor:linear-gradient(to right, #88278C, green);
+				
+				--bis-info-Color:#000000;
+				--bis-info-i-Color:#88278C;
+				--bis-info-i-BorderColor:#88278C;
+				
+				--action-i-Color:var(--anchorColor);
+				--action-i-BorderColor:var(--anchorColor);
+				--action-link-Color:var(--anchorColor);
+				
+				--bis-add-Color:#000000;
+				--bis-add-i-Color:#88278C;
+				--bis-add-i-BorderColor:#88278C;
+				
+				--bis-category-title-Color:#FFFFFF;
+				--bis-category-title-BgColor:#88278C;				
+				--bis-cat-BgColor:#000000;
+				
+				--bis-data-Color:#5F6369;
+				
+				--share-bis-button-BgColor:rgba(0,0,0,0.3);
+				--share-bis-button-Color:#FFFFFF;
+				--share-bis-button-hover-BgColor:rgba(0,0,0,0.6);
+				
+				--social-link-Color:var(--anchorColor);
+				
+				--profile-element-BorderColor:#F1F1F1;
+				
+				--profile-left-Color:#FFFFFF;
+				--profile-left-BgColor:#423243;
+				
+				--textarea-Color:rgba(102,102,102,1);
+				--textarea-BgColor:#FFFFFF;
+				
+				--review-name-Color:#FFA300;
+				--review-name-BgColor:#FFFFFF;
+				
+				--profile-title-Color:#000000;
+				--profile-title-BgColor:#FFFFFF;
+				
+				--analytics-BgColor:rgba(0,0,0,0.03);
+				
+			/*	Profile Page Ends	*/
+			
+		}
+		
+	/* Desktop Screen Ends */
+	
+	/* Tablet Screen */
+		
+		@media screen and (max-width: 1024px) {
+			
+			:root {
+				
+				/*	Profile page contents	*/
+				
+					--O-C-statusBgColor:transparent;
+					--O-C-status-i-BgColor:rgba(0,0,0,0.0);
+					
+					--bis-graphics-BgColor:linear-gradient(to right, #FFFFFF, #FFFFFF);
+					
+					--action-i-Color:#FFFFFF;
+					--action-i-BorderColor:#FFFFFF;
+					--action-link-Color:#FFFFFF;
+					
+					--bis-add-Color:#FFFFFF;
+					--bis-add-i-Color:#FFFFFF;
+					--bis-add-i-BorderColor:#FFFFFF;
+					
+					--bis-info-i-Color:#000000;
+					--bis-info-i-BorderColor:#F1F1F1;
+					--bis-info-i-BgColor:#F1F1F1;
+					
+					--bis-cat-i-Color:#000000;
+					--bis-cat-i-BorderColor:#F1F1F1;
+					--bis-cat-i-BgColor:#F1F1F1;
+					--bis-category-title-Color:#000000;
+					--bis-category-title-BgColor:transparent;
+					
+					--bis-data-Color:#FFFFFF;
+					
+					--social-link-Color:#FFFFFF;
+					
+				/*	Profile page contents	Ends */
+			}
+			
+		}
+	
+	/*	Tablet Screen Ends */
+	
+	/* Mobile Screen */	
+		@media screen and (max-width: 701px) {
+
+			:root {
+				
+				/*	Navbar and contents	*/
+					
+					--navbarGradientColor_left:rgba(255,255,255,1);
+					
+					--navbarLinkContainerBgColor:rgba(255,255,255,1);
+					
+					--hamburgerTextColor:rgba(102,102,102,1);
+					--hamburgerBgColor:rgba(255,255,255,1);
+					--hamburgerShadowColor_top:rgba(255,255,255,0.3);
+					--hamburgerShadowColor_bottom:#BABECC;
+					
+					--navbarLinkShadowColor_top:rgba(0,0,0,0);
+					--navbarLinkShadowColor_bottom:rgba(0,0,0,0);
+					
+					--navbarUserDataBgColor:rgba(242,242,242,1);
+					--navbarUserDataNameBgColor:#FFFFFF;
+					--navbarUserDataBorderColor:rgba(242,242,242,1);
+					--navbarFaBgColor:#FFFFFF;
+					
+					--pageHeaderColor:#88278C;
+					--pageHeaderBgColor:#F1F1F1;
+					
+				/*	Navbar and components Ends	*/
+				
+				
+				/*	Bisiness contents and components	*/
+					
+					--bisContentBorderColor:rgba(102,102,102,0);	
+				
+					--scrollbarTrackShadowColor:rgba(0,0,0,0.5);
+				
+				/*	Bisiness contents and components Ends	*/
+				
+				/*	IndexPage	*/
+					
+					--indexSearchBoxShadowColor_top:rgba(0,0,0,0);
+					--indexSearchBoxShadowColor_bottom:rgba(0,0,0,0);
+					
+					--indexSearchButtonShadowColor_top:rgba(0,0,0,0);
+					--indexSearchButtonShadowColor_bottom:rgba(0,0,0,0);
+					
+					--brandLogoBgColor:rgba(255,255,255,1);	
+					
+				/*	Index Page Ends	*/
+				
+				/*	Browser Page	*/
+				
+					--bisOverviewBorderColor:rgba(102,102,102,0);
+					
+				/*	Browser Page Ends	*/
+				
+				/*	Profile Page	*/
+					
+					--map-direction-link-Color:#FFFFFF;
+					--map-direction-i-Color:#FFFFFF;
+					--map-direction-i-BorderColor:rgba(0,0,0,0);
+					--map-direction-i-BgColor:rgba(0,0,0,0);
+					
+					--social-community-BgColor:rgba(0,0,0,0.9);
+					
+					--action-i-Color:var(--anchorColor);
+					--action-i-BorderColor:var(--anchorColor);
+					--action-link-Color:#000000;
+					--action-link-BgColor:#F1F1F1;
+					
+					--bis-add-Color:#000000;
+					--bis-add-i-Color:#000000;
+					--bis-add-i-BorderColor:#F1F1F1;
+					--bis-add-i-BgColor:#F1F1F1;
+					
+					--bis-data-Color:rgba(102,102,102,1);
+					
+				/*	Profile Page Ends	*/
+				
+			}
+			
+		}
+		
+	/* Mobile Screen Ends */
+
+	/* Smaller Mobile Screen */	
+		@media screen and (max-width: 680px) {
+
+			:root {
+				
+				/*	Profile Page	*/
+					
+					--action-i-Color:#000000;
+					--action-i-BorderColor:#F1F1F1;
+					--action-i-BgColor:#F1F1F1;
+					--action-link-Color:var(--anchorColor);
+					--action-link-BgColor:transparent;
+					
+				/*	Profile Page Ends	*/
+				
+			}
+			
+		}
+		
+	/* Smaller Mobile Screen Ends */
+	
+/* Light Mode Enabled from Browser/Device/Site Settings Ends */
+
+
+/* Dark Mode Enabled from Site Settings - Desktop */
+
+	[data-theme="dark"] {
+		
+		/*	Main	Styles	*/
+			
+			--themeColor:#FF00FF;
+			--textColor:rgba(255,255,255,1);
+			--textColor_alt:rgba(255,255,255,1);
+			--BgColor:#140116;
+			--overlayBgColor:rgba(255,255,255,0.3);
+			
+		/*	Main	Styles Ends	*/
+
+		/*	Select and Options input fields	*/
+		
+			--selectBgColor:#140116;
+			--optionBgColor:#140116;
+			--selectHoverColor:#220B24;
+			
+		/*	Select and Options input fields Ends		*/
+		
+		/*	Navbar and components	*/
+			
+			--navbarGradientColor_left:#220B24;
+			--navbarGradientColor_right:#140116;
+			
+			--navbarLinkContainerBgColor:#220B24;
+			--navbarLinkTextColor:#FFFFFF;
+			
+			--navbarUserDataBgColor:#423243;
+			--navbarUserDataBorderColor:#4B144E;
+			--hamburgerTextColor:#FFFFFF;
+			--hamburgerBgColor:#423243;
+			
+			--hamburgerShadowColor_top:rgba(0,0,0,0);
+			--hamburgerShadowColor_bottom:rgba(0,0,0,0);
+			
+			--navbarProfilePicShadowColor_top:rgba(0,0,0,0);		
+			--navbarProfilePicShadowColor_bottom:rgba(0,0,0,0);
+			
+			--navbarLinkShadowColor_top:rgba(0,0,0,0);
+			--navbarLinkShadowColor_bottom:rgba(0,0,0,0);
+			
+			--brandingBorderColor:#220B24;
+			
+			--navbarFaBgColor:#88278C;
+
+			--pageHeaderColor:#FFFFFF;	
+			
+			--settingsBgColor:#220B24;
+			--closeTextColor:#FFFFFF;
+			--closeBgColor:#140116;
+			--closeShadowColor_top:#140116;
+		
+		/*	Navbar and components Ends	*/
+		
+		/*	Bisiness contents and components	*/
+		
+			--bisContentBorderColor:#220B24;
+			
+			--filterHeaderGradientColor_left:#140116;
+			--filterHeaderGradientColor_right:#220B24;
+			
+		/*	Bisiness contents and components Ends	*/		
+		
+		/*	Scrollbar components	*/
+		
+			--scrollbarTrackShadowColor:#88278C;
+			--scrollbarTrackBgColor:#220B24;
+			
+		/*	Scrollbar components Ends	*/
+		
+		/*	Loading Animation Colours	*/
+			--ann1BgColor:white;
+		/*	Loading Animation Colours Ends		*/
+		
+		/*	Others	*/
+			--blackColor:rgba(255,255,255,1);
+			
+			--optionsPopupBgColor:#423243;
+			
+			--popupBgColor:#220B24;
+			
+			--previewButtonBgColor:#423243;
+			
+			--checkBoxBgColor:#423243;
+			--checkBoxBorderColor:var(--selectHoverColor);
+			--checkBoxHoverColor:var(--selectHoverColor);
+			--checkBoxTextColor:var(--textColor);
+		/*	Others Ends	*/
+		
+		/*	IndexPage	*/
+			
+			--indexSearchBgColor:#423243;
+			
+			--indexSearchBoxShadowColor_top:rgba(0,0,0,0);
+			--indexSearchBoxShadowColor_bottom:rgba(0,0,0,0);
+			
+			--indexSearchButtonTextColor:rgba(255,255,255,1);
+			
+			--exploreBtnTextColor:#FFFFFF;
+			--exploreBtnBgColor:#88278C7A;
+			--searchContainerBgColor:#140116;
+			--searchContainerBgColor_animate:#220B24;
+			
+			--brandLogoBgColor:#220B24;
+			--brandLogoShadowColor_top:transparent;		
+			--brandLogoShadowColor_bottom:transparent;
+			
+		/*	Index Page Ends	*/
+		
+		/*  Browser page  */
+
+			--bisOverviewBorderColor:#220B24;
+			
+		/*  Browser page ends */
+		
+		/*	Profile Page	*/
+		
+		--bis-name-Color:#FFFFFF;
+		
+			--map-direction-i-Color:#FFFFFF;
+			--map-direction-i-BorderColor:#423243;
+			--map-direction-i-BgColor:#423243;
+			
+			--view-bis-image-BgColor:#423243;
+			
+			--bis-info-Color:#FFFFFF;
+			
+			--bis-add-Color:#FFFFFF;
+			
+			--action-i-BgColor:transparent;
+			--action-i-Color:#88278C;
+			--action-i-BorderColor:#88278C;
+			
+			--bis-cat-i-Color:#FFFFFF;
+			--bis-cat-i-BorderColor:#423243;
+			--bis-cat-i-BgColor:#423243;
+			
+			--bis-data-Color:#FFFFFF;
+			
+			--profile-element-BorderColor:#423243;
+			
+			--textarea-Color:rgba(255,255,255,0.8);
+			--textarea-BgColor:#423243;
+			
+			--review-name-BgColor:#423243;
+			
+			--profile-title-Color:#FFFFFF;
+			--profile-title-BgColor:#140116;
+			
+			--analytics-BgColor:#423243;
+			
+		/*	Profile Page Ends	*/
+
+	}
+	
+/* Dark Theme Enabled from Site Settings - Desktop Ends */
+
+/* Dark Theme Enabled from Site Settings - Tablet */
+	
+	@media screen and (max-width: 1024px) {
+		
+		[data-theme="dark"] {
+			
+			/*	Profile and components	*/
+				
+				--bis-graphics-BgColor:linear-gradient(to right, #140116, #140116);
+				
+				--action-i-Color:#FFFFFF;
+				--action-i-BorderColor:#FFFFFF;
+				
+				--bis-info-i-Color:#FFFFFF;
+				--bis-info-i-BorderColor:#423243;
+				--bis-info-i-BgColor:#423243;
+				
+			/*	Profile and components	Ends	*/	
+			
+		}
+		
+	}
+	
+/* Dark Theme Enabled from Site Settings - Tablet Ends */
+	
+/* Dark Theme Enabled from Site Settings - Mobile */
+	
+	@media screen and (max-width: 701px) {
+		
+		[data-theme="dark"] {
+			
+			/*	Navbar and components	*/
+				
+				--navbarGradientColor_left:#220B24;
+				--navbarGradientColor_right:#140116;
+				
+				--navbarLinkContainerBgColor:#220B24;
+				
+				--hamburgerTextColor:#FFFFFF;
+				--hamburgerBgColor:#423243;
+				
+				--hamburgerShadowColor_top:rgba(0,0,0,0);
+				--hamburgerShadowColor_bottom:rgba(0,0,0,0);
+				--navbarUserDataBgColor:#423243;
+				--navbarUserDataNameBgColor:#423243;
+				--navbarUserDataBorderColor:#423243;	
+				--navbarFaBgColor:rgba(242,242,242,0.2);
+
+				--pageHeaderColor:#FFFFFF;
+				--pageHeaderBgColor:#220B24;				
+				
+			/*	Navbar and components Ends	*/
+			
+			/*	Bisiness contents and components	*/
+			
+				--bisContentBorderColor:#220B24;
+				
+			/*	Bisiness contents and components Ends	*/		
+			
+			/*	IndexPage	*/				
+				
+				--brandLogoBgColor:#220B24;
+				
+			/*	Index Page Ends	*/
+			
+			
+			/*	Browser Page	*/
+	
+				--bisOverviewBorderColor:#88278C;
+				
+			/*	Browser Page Ends	*/
+			
+			/*	Profile Page	*/
+			
+				--map-direction-i-BorderColor:rgba(0,0,0,0);
+				--map-direction-i-BgColor:rgba(0,0,0,0);
+				
+				--action-i-BorderColor:#88278C;
+				--action-i-BgColor:#88278C;
+				--action-link-Color:#FFFFFF;
+				--action-link-BgColor:#423243;
+				
+				--bis-add-i-Color:#FFFFFF;
+				--bis-add-i-BorderColor:#423243;
+				--bis-add-i-BgColor:#423243;
+				
+			/*	Profile Page Ends	*/
+			
+		}
+		
+	}
+	
+/* Dark Theme Enabled from Site Settings - Mobile Ends */
+
+/* Dark Theme Enabled from Site Settings - Smaller Mobile */
+	
+	@media screen and (max-width: 680px) {
+		
+		[data-theme="dark"] {
+			
+			/*	Profile Page	*/
+			
+				--action-i-BgColor:#423243;
+				--action-i-Color:#FFFFFF;
+				--action-i-BorderColor:#423243;
+				
+				--action-link-BgColor:transparent;
+				
+			/*	Profile Page Ends	*/
+			
+		}
+		
+	}
+	
+/* Dark Theme Enabled from Site Settings - Smaller Mobile Ends */
+
+
+/* Dark Mode Enabled from Browser/Device */
+	
+	@media (prefers-color-scheme: dark) {
+		
+		/* Desktop Mode */
+
+			:root {
+				
+				/*	Main	Styles	*/
+					
+					--themeColor:#FF00FF;
+					--textColor:rgba(255,255,255,1);
+					--textColor_alt:rgba(255,255,255,1);
+					--BgColor:#140116;
+					--overlayBgColor:rgba(255,255,255,0.3);
+					
+				/*	Main	Styles Ends	*/
+
+				/*	Select and Options input fields	*/
+				
+					--selectBgColor:#140116;
+					--optionBgColor:#140116;
+					--selectHoverColor:#220B24;
+					
+				/*	Select and Options input fields Ends		*/
+				
+				/*	Navbar and components	*/
+					
+					--navbarGradientColor_left:#220B24;
+					--navbarGradientColor_right:#140116;
+					
+					--navbarLinkContainerBgColor:#220B24;
+					--navbarLinkTextColor:#FFFFFF;
+					
+					--navbarUserDataBgColor:#423243;
+					--navbarUserDataBorderColor:#4B144E;
+					--hamburgerTextColor:#FFFFFF;
+					--hamburgerBgColor:#423243;
+					
+					--hamburgerShadowColor_top:rgba(0,0,0,0);
+					--hamburgerShadowColor_bottom:rgba(0,0,0,0);
+					
+					--navbarProfilePicShadowColor_top:rgba(0,0,0,0);		
+					--navbarProfilePicShadowColor_bottom:rgba(0,0,0,0);
+					
+					--navbarLinkShadowColor_top:rgba(0,0,0,0);
+					--navbarLinkShadowColor_bottom:rgba(0,0,0,0);
+					
+					--brandingBorderColor:#220B24;
+					
+					--navbarFaBgColor:#88278C;
+
+					--pageHeaderColor:#FFFFFF;	
+					
+					--settingsBgColor:#220B24;
+					--closeTextColor:#FFFFFF;
+					--closeBgColor:#140116;
+					--closeShadowColor_top:#140116;
+				
+				/*	Navbar and components Ends	*/
+				
+				/*	Bisiness contents and components	*/
+				
+					--bisContentBorderColor:#220B24;
+					
+					--filterHeaderGradientColor_left:#140116;
+					--filterHeaderGradientColor_right:#220B24;
+					
+				/*	Bisiness contents and components Ends	*/		
+				
+				/*	Scrollbar components	*/
+				
+					--scrollbarTrackShadowColor:#88278C;
+					--scrollbarTrackBgColor:#220B24;
+					
+				/*	Scrollbar components Ends	*/
+				
+				/*	Loading Animation Colours	*/
+					--ann1BgColor:white;
+				/*	Loading Animation Colours Ends		*/
+				
+				/*	Others	*/
+					--blackColor:rgba(255,255,255,1);
+					
+					--optionsPopupBgColor:#423243;
+					
+					--popupBgColor:#220B24;
+					
+					--previewButtonBgColor:#423243;
+					
+					--checkBoxBgColor:#423243;
+					--checkBoxBorderColor:var(--selectHoverColor);
+					--checkBoxHoverColor:var(--selectHoverColor);
+					--checkBoxTextColor:var(--textColor);
+				/*	Others Ends	*/
+				
+				/*	IndexPage	*/
+					
+					--indexSearchBgColor:#423243;
+					
+					--indexSearchBoxShadowColor_top:rgba(0,0,0,0);
+					--indexSearchBoxShadowColor_bottom:rgba(0,0,0,0);
+					
+					--indexSearchButtonTextColor:rgba(255,255,255,1);
+					
+					--exploreBtnTextColor:#FFFFFF;
+					--exploreBtnBgColor:#88278C7A;
+					--searchContainerBgColor:#140116;
+					--searchContainerBgColor_animate:#220B24;
+					
+					--brandLogoBgColor:#220B24;
+					--brandLogoShadowColor_top:transparent;		
+					--brandLogoShadowColor_bottom:transparent;
+					
+				/*	Index Page Ends	*/
+				
+				/*  Browser page  */
+
+					--bisOverviewBorderColor:#220B24;
+					
+				/*  Browser page ends */
+				
+				/*	Profile Page	*/
+				
+					--map-direction-i-Color:#FFFFFF;
+					--map-direction-i-BorderColor:#423243;
+					--map-direction-i-BgColor:#423243;
+					
+					--view-bis-image-BgColor:#423243;
+					
+					--bis-info-Color:#FFFFFF;
+					
+					--bis-add-Color:#FFFFFF;
+					
+					--action-i-BgColor:transparent;
+					--action-i-Color:#88278C;
+					--action-i-BorderColor:#88278C;
+					
+					--bis-cat-i-Color:#FFFFFF;
+					--bis-cat-i-BorderColor:#423243;
+					--bis-cat-i-BgColor:#423243;
+					
+					--bis-data-Color:#FFFFFF;
+					
+					--profile-element-BorderColor:#423243;
+					
+					--textarea-Color:rgba(255,255,255,0.8);
+					--textarea-BgColor:#423243;
+					
+					--review-name-BgColor:#423243;
+					
+					--profile-title-Color:#FFFFFF;
+					--profile-title-BgColor:#140116;
+					
+					--analytics-BgColor:#423243;
+					
+				/*	Profile Page Ends	*/
+
+			}
+			
+		/* Desktop Ends */
+
+		/* Tablet Screen */
+			
+			@media screen and (max-width: 1024px) {
+				
+				:root {
+					
+					/*	Profile and components	*/
+						
+						--bis-graphics-BgColor:linear-gradient(to right, #140116, #140116);
+						
+						--action-i-Color:#FFFFFF;
+						--action-i-BorderColor:#FFFFFF;
+						
+						--bis-info-i-Color:#FFFFFF;
+						--bis-info-i-BorderColor:#423243;
+						--bis-info-i-BgColor:#423243;
+						
+					/*	Profile and components	Ends	*/	
+					
+				}
+				
+			}
+			
+		/* Tablet Ends */
+			
+		/* Mobile Screen */
+			
+			@media screen and (max-width: 701px) {
+				
+				:root {
+					
+					/*	Navbar and components	*/
+						
+						--navbarGradientColor_left:#220B24;
+						--navbarGradientColor_right:#140116;
+						
+						--navbarLinkContainerBgColor:#220B24;
+						
+						--hamburgerTextColor:#FFFFFF;
+						--hamburgerBgColor:#423243;
+						
+						--hamburgerShadowColor_top:rgba(0,0,0,0);
+						--hamburgerShadowColor_bottom:rgba(0,0,0,0);
+						--navbarUserDataBgColor:#423243;
+						--navbarUserDataNameBgColor:#423243;
+						--navbarUserDataBorderColor:#423243;	
+						--navbarFaBgColor:rgba(242,242,242,0.2);
+
+						--pageHeaderColor:#FFFFFF;
+						--pageHeaderBgColor:#220B24;				
+						
+					/*	Navbar and components Ends	*/
+					
+					/*	Bisiness contents and components	*/
+					
+						--bisContentBorderColor:#220B24;
+						
+					/*	Bisiness contents and components Ends	*/		
+					
+					/*	IndexPage	*/				
+						
+						--brandLogoBgColor:#220B24;
+						
+					/*	Index Page Ends	*/
+					
+					
+					/*	Browser Page	*/
+			
+						--bisOverviewBorderColor:#88278C;
+						
+					/*	Browser Page Ends	*/
+					
+					/*	Profile Page	*/
+					
+						--map-direction-i-BorderColor:rgba(0,0,0,0);
+						--map-direction-i-BgColor:rgba(0,0,0,0);
+						
+						--action-i-BorderColor:#88278C;
+						--action-i-BgColor:#88278C;
+						--action-link-Color:#FFFFFF;
+						--action-link-BgColor:#423243;
+						
+						--bis-add-i-Color:#FFFFFF;
+						--bis-add-i-BorderColor:#423243;
+						--bis-add-i-BgColor:#423243;
+						
+					/*	Profile Page Ends	*/
+					
+				}
+				
+			}
+			
+		/* Mobile Ends */
+
+		/* Smaller Mobile Screen */
+			
+			@media screen and (max-width: 680px) {
+				
+				:root {
+					
+					/*	Profile Page	*/
+					
+						--action-i-BgColor:#423243;
+						--action-i-Color:#FFFFFF;
+						--action-i-BorderColor:#423243;
+						--action-link-BgColor:transparent;
+						
+					/*	Profile Page Ends	*/
+					
+				}
+				
+			}
+			
+		/* Smaller Mobile Ends */
+		
+	}
+	
+/* Dark Mode Enabled from Browser/Device Ends */
+
+/*[data-theme="dark"] img {
+	filter:brightness(0.8) contrast(1.2);
+}*/
+	

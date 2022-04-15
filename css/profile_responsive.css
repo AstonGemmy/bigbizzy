@@ -1,0 +1,474 @@
+@media screen and (max-width:1300px) {
+
+	.profile-header .O-C-status {
+		top:8px;
+		left:230px;
+	}
+	
+}
+
+@media screen and (max-width:1024px) {
+	
+	.profile-header {
+		height:260px;
+	}
+
+	.ceo-picture {
+		top:180px;
+	}
+
+	.contact-info {
+		width:calc(100% - 350px);
+		height:auto;
+		top:150px;
+		left:270px;
+		padding:0px;
+	}
+	
+	.contact-info .action-info {
+		padding:0;
+	}
+	
+	.contact-info .action, .contact-info .address, .contact-info .info {
+		display:block;
+		width:100%;
+		margin:0px auto;
+		padding:10px 0px;
+		overflow:hidden;
+	}
+	
+	.contact-info .address {
+		text-align:center;
+	}
+	
+	.contact-info .info {
+		border-radius:0;
+		text-align:left;
+		padding:0;
+	}
+	
+	.contact-info .info span {
+		margin:0px;
+	}
+	
+	.contact-info .address span {
+		width:100%;
+		margin:0;
+	}
+	
+	.contact-info .action a {
+		width:calc((100% - 30px) / 3);
+		float:left;
+		margin:0px 5px;
+		text-align:center;
+	}
+	
+	.drop-down span {
+		width:calc(100% / 3);
+		float:left;
+		text-align:center;
+	}	
+	
+	.contact-info .action-info .bis-hour {
+		padding:10px 0px 0px 10px;
+		width:100%;
+	}	
+	
+	.drop-down {
+		position:relative;
+		height:auto;
+		overflow:hidden;
+		width:100%;
+		margin:0px auto!important;
+	}
+	
+	.drop-down span {
+		font-size:12px;
+		padding:0;
+		margin:0!important;
+	}
+	
+	.bis-category {
+		left:450px;
+		height:auto;
+		line-height:auto;
+		bottom:-45px;
+		max-width:calc(100% - 460px);
+	}
+	
+	.bis-category .bis-category-value {
+		font-weight:bold;
+	}
+	
+	.bis-category .bis-category-title {
+		margin-right:0;
+		padding:0;
+	}
+
+	.bis-data {
+		width:calc(100% - 300px);
+		top:20px;
+		margin-top:auto;
+		left:30px;
+		padding:12px;
+	}
+	
+	.bis-graphics {
+		width:100%;
+		height:260px;
+		top:0;
+		padding:0;
+		border-radius:0;
+		left:0;
+	}
+	
+	.bis-graphics .image {
+		border-top-left-radius:0;
+		border-bottom-left-radius:0;
+		border-bottom-right-radius:100px;
+		filter:brightness(50%);
+	}
+	
+	.profile-header .social {
+		top:5px;
+		left:auto;
+		right:5px;
+		max-width:calc(100% - 40px);
+	}
+	
+	.profile-header .O-C-status {
+		top:140px;
+		left:30px;
+		height:auto;
+	}
+	
+	.profile-header .O-C-status i {
+		width:25px;
+		height:25px;
+		line-height:25px;
+		text-align:center;
+		font-size:15px;
+		border-radius:50px;
+		margin:0px 5px 0px 0px;
+	}
+	
+	.profile-header .map-direction {
+		bottom:-110px;
+		width:200px;
+		left:30px;
+	}
+	
+	.profile-header .map-direction i {
+		width:25px;
+		font-size:15px;
+		height:25px;
+		line-height:23px;
+	}
+	
+	.profile-body {
+		border-top:0;
+		padding:120px 8px 20px 8px;
+	}
+	
+	.profile-rating .rates i {
+		transition: font-size 0.2s ease-in;
+		margin:0px 5px;
+		width:30px;
+		height:30px;
+		line-height:28px;
+		text-align:center;
+		font-size:18px;
+		color:#F1F1F1;
+		cursor:pointer;
+	}
+
+	.profile-body-left {
+		width:40%;
+		padding:1px 16px;
+	}
+	
+	.profile-body-right {
+		left:calc(40% + 8px);
+		width:calc(60% - 16px);
+		padding:0px 16px;
+	}
+	
+	.profile-description, .bis-review {
+		margin:10px auto 20px auto;
+	}
+	
+	.bis-review {height:auto;}
+	
+	.bis-review .client-review-data {
+		position:relative;
+		left:auto;
+		margin:20px 0px;
+		padding:0px;
+		width:100%;
+	}
+	
+	.bis-review .review-data {
+		max-height:210px;
+		width:100%;
+	}
+	
+	.bis-review .analytics {
+		position:relative;
+		left:auto;
+		width:95%;
+		margin:0px auto;
+	}
+	
+	.bis-review .analytics-graphics {
+		height:40%;
+	}
+	
+	.bis-review .analytics .content-info {
+		height:60%;
+		padding:10px 15px;
+		margin:0px auto;
+	}
+
+	.bis-review .analytics .content-info span {
+		width:95%;
+		display:block;
+		text-align:center;
+		margin:2px auto;
+	}
+
+}
+
+@media screen and (max-width:701px) {
+	
+	.profile-header {
+		margin-top:60px;
+		height:auto;
+		padding:10px 20px;
+	}
+	
+	.ceo-picture {
+		position:relative;
+		left:40px;
+		top:auto;
+		margin-top:160px;
+	}
+
+	.contact-info {
+		width:100%;
+		position:relative;
+		left:auto;
+		margin:0;
+		top:auto;
+		padding:0px 12px;
+	}
+	
+	.contact-info .action, .contact-info .address, .contact-info .info {
+		margin:10px auto;
+	}
+	
+	.contact-info .action a {
+		padding:1px 12px;
+		font-size:12px;
+		border-radius:50px;
+	}
+	
+	.contact-info .address i {		
+		float:left;
+	}
+	
+	.contact-info .address, .contact-info .info {
+		text-align:left;
+		padding:0px 20px;
+		font-size:12px;
+	}
+	
+	.contact-info .action-info .bis-hour {
+		padding:0px;
+	}
+	
+	.contact-info .info:hover .drop-down {
+		display:block;
+	}
+	
+	.contact-info .info .drop-down {
+		display:none;
+	}
+	
+	.bis-category {
+		left:230px;
+		font-size:12px;
+		bottom:unset;
+		top:270px;
+		max-width:calc(100% - 260px);
+	}
+	
+	.bis-data {
+		position:relative;
+		width:100%;
+		top:auto;
+		margin-top:0;
+		left:0;
+		padding:12px;
+	}
+	
+	.bis-data .tag {
+	    font-size:14px;
+	}
+	
+	.bis-data .name {
+	    font-size:15px;
+	}
+	
+	.bis-graphics {
+		width:100%;
+		height:250px;
+		top:0;
+		left:0;
+	}
+	
+	#view-bis-image {
+		top:215px;
+	}
+
+	.profile-header .social {
+		top:0px;
+		right:0;
+		max-width:auto;
+		height:auto;
+		line-height:auto;
+	}
+	
+	.profile-header .O-C-status {
+		top:5px;
+		left:5px;
+		padding:0;
+	}
+	
+	.profile-header .map-direction {
+		bottom:unset;
+		top:30px;
+		left:5px;
+		text-align:left;
+	}
+	
+	.profile-header .map-direction a {
+		font-weight:normal;
+	}
+	
+	.profile-header .map-direction i {
+		margin:0px 5px 0px 0px;
+	}
+	
+	.profile-header .social .social-comunities {
+		display:none;
+	}
+	
+	.profile-header .social .social-comunities a {
+		display:block;
+		width:100%;
+	}
+	
+	.profile-header .social:hover .social-comunities {
+		display:block;
+		min-width:160px;
+		height:auto;
+		padding:10px 10px;
+		border-radius:4px;
+		overflow:hidden;
+		position:absolute;
+		top:5px;
+		z-index:1;
+		right:2px;
+	}
+	
+	.profile-header .social:hover #share-bis-button {
+		background-color:var(--share-bis-button-hover-BgColor);
+	}
+	
+	.profile-body {
+		padding:0px 0px 5px 0px;
+	}
+	
+	.profile-body-left {
+		position:relative;
+		width:100%;
+		font-size:14px;
+		padding:1px 8px;
+	}
+
+	.profile-body-right {
+		position:relative;
+		left:auto;
+		width:calc(100%);
+		font-size:14px;
+		padding:0px 8px;
+	}
+	
+	.profile-description, .bis-review {
+		padding:5px 8px 20px 8px;		
+	}
+	
+	.profile-title {
+	    font-size:15px;
+	}
+	
+}
+
+@media screen and (max-width:680px) {
+	
+	.profile-header {
+		padding:10px 0px;
+	}
+	
+	.ceo-picture {
+		left:10px;
+		margin-top:100px;
+		width:80px;
+		height:80px;
+	}
+
+	.contact-info {
+		padding:0px 10px;
+	}
+	
+	.contact-info .action a {
+		font-weight:bold;
+	}
+	
+	.contact-info .action a i {
+		display:block;
+		width:100%;
+	}
+	
+	.contact-info .info, .contact-info .address {
+		padding:0px 10px;
+	}
+	
+	.contact-info .info span {
+		padding:0;
+	}
+	
+	.bis-category {
+		position:relative;
+		left:auto;
+		bottom:auto;
+		top:auto;
+		min-width:calc(100%);
+		height:auto;
+		line-height:auto;
+		padding:0px 0px 0px 20px;
+	}
+
+	.bis-graphics {
+		height:150px;
+	}
+	
+	.bis-graphics .image {
+		border-bottom-right-radius:0px;
+	}
+	
+	#view-bis-image {
+		top:135px;
+	}
+
+}

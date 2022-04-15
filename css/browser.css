@@ -1,0 +1,269 @@
+/* Search Accessories */
+	
+	.index_search {
+	    display:none;
+	}
+	
+	.searchResults-AREA {
+		margin:0px;
+		width: 440px;
+		height:calc(100% - 90px);
+		padding:0px;
+		position:absolute;
+		border-left:1px solid var(--bisContentBorderColor);
+		border-top:1px solid var(--bisContentBorderColor);
+		border-bottom:1px solid var(--bisContentBorderColor);
+		left:20px;
+		top:70px;
+		overflow:auto;
+		border-top-left-radius:4px;
+		border-bottom-left-radius:4px;
+		background-color:var(--BgColor);
+	}
+
+	#browser-page-title {
+		margin: 0px auto 0px auto;
+		padding:0px 10px;
+		position:absolute;
+		top:71px;
+		z-index:1;
+		left:22px;
+		text-align:left;
+		font-weight:bold;
+		width:auto;
+		color:var(--pageHeaderColor);
+		height:35px;
+		line-height:35px;
+		background-color:var(--pageHeaderBgColor);
+	}
+	
+	#searchBusiness-DATA {
+		margin: 0px;
+		width: 100%;
+		height:calc(100% - 35px);
+		position:absolute;
+		top:35px;
+		left:0;
+		overflow: auto;
+		padding:0px;
+		background-color:var(--BgColor);
+	}
+
+	.fetchHeader {
+		width:calc(100% - 100px);
+		height:53px;
+		margin:0px 50px 0px 50px;
+		overflow-x:auto;
+		overflow-y:hidden;
+	}
+	
+	.filter-arrows {
+		position:absolute;
+		background-color:var(--BgColor);
+		cursor:pointer;
+		top:33px;
+		display:block;
+		width:45px;
+		height:55px;
+		text-align:center;
+		line-height:60px;
+		z-index:1;
+	}
+	
+	.filter-arrows i {width:35px;height:35px;line-height:37px;text-align:center;background-color:rgba(0,0,0,0.1);border-radius:100px;}
+	.arrow-left {left:5px;}
+	.arrow-right {right:5px;}
+	
+/* Search Accessories Ends */
+
+/* Filter and Sort Accesories */
+
+	.refine-data {
+		height:auto;
+		width:700px;
+		margin:1px auto;
+	}
+
+	.refine-data-container {
+		width: 100%;
+		margin:10px 5px;
+	}
+
+/* Footer Accessories Ends */
+
+	.footer {
+		text-align:center;
+		position:relative;
+		width:100%;
+	}
+
+/* Footer Accessories Ends */
+
+/* Data Container Accessories */
+
+	#businessOverview-AREA {
+		margin: 0px auto;
+		width: calc(100% - 480px);
+		height:calc(100% - 90px);
+		overflow-y: overlay;
+		overflow-x: hidden;
+		padding:0px;
+		top:70px;
+		overscroll-behavior:contain;
+		left:460px;
+		position:absolute;
+		border:1px solid var(--bisOverviewBorderColor);
+		border-top-right-radius:4px;
+		border-bottom-right-radius:4px;
+		line-height: normal;
+		background-color:var(--popupBgColor);
+	}
+	
+	.businessOverview {
+		margin: 0px auto;
+		padding:0px;
+		width:100%;
+		float:left;
+		position:relative;
+		background-color:var(--popupBgColor);
+	}
+
+	.businessGraphics {
+		float:left;
+		padding:0px;
+		width:90%;
+		margin:20px 5%;
+		height:250px;
+	}
+
+	.businessImage {
+		margin: 0px;
+		float:left;
+		width:350px;
+		height:250px;
+	}
+
+	.ceoInfo {
+		margin: 0px;
+		float:left;
+		width:calc(100% - 350px);
+		height:250px;
+		text-align:center;
+		padding:20px;
+	}
+
+	.ceoPicture {
+		padding:5px;
+		margin: 0px auto 10px auto;
+		width:100px;
+		height:100px;
+		background-color:var(--ceoPictureBgColor);
+		border-radius:100px;
+		box-shadow: 0 2px 0px var(--ceoPictureBgShadowColor_top), 0px 1px 1px var(--ceoPictureBgShadowColor_bottom);
+	}
+
+	.businessName, .businessAddress, .businessCategory {	
+		font-size: 12px;
+		font-weight: 500;
+		color:var(--blackColor);
+		background-color:;
+		font-family:'Montserrat', Helvetica, Arial, San-serif;
+		margin:0px auto;
+		width:90%;
+		display:inline-block;
+		text-align:center;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;
+	}
+
+	.businessSocialHandles {	
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--themeColor);
+		background-color:;
+		margin:10px auto 0px auto;
+		width:90%;
+		display:inline-block;
+		text-align:center;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;
+	}
+
+	.businessSocialHandles i {	
+		margin:auto 5px;
+	}
+
+	.businessDescription {
+		float:left;
+		width:100%;
+		padding:10px;
+	}
+
+	.overviewHeader {
+		margin: 0px auto 0px auto;
+		padding:0px 10px;
+		position:sticky;
+		top:0;
+		text-align:left;
+		float:left;
+		font-weight:bold;
+		width:100%;
+		color:var(--blackColor);
+		height:35px;
+		line-height:35px;
+		background-color:var(--BgColor);
+		z-index:1;
+		border-bottom:1px solid var(--bisContentBorderColor);
+	}
+	
+	.businessOverviewPlaceholder {
+		text-align:center;
+		background-color:;
+		padding:20px;
+		position:relative;
+	}
+	
+	.businessOverviewPlaceholder:before {
+		content:"";
+		display: table;
+		clear: both;
+	}
+	
+	.overviewClose-btn {
+	    display:none;
+	    position:fixed;
+		right:30px;
+		z-index:2;
+		top:30px;
+	    width:35px;
+		height:35px;
+		line-height:38px;
+		border-radius:100px;
+	    text-align:center;
+		color:var(--closeTextColor);
+		background-color:var(--closeBgColor);
+		cursor:pointer;
+	}
+
+	.overviewFooter {
+		margin: 0px auto 0px auto;
+		padding:0px;
+		position:absolute;
+		bottom:0;
+		left:0;
+		text-align:center;
+		width:100%;
+		color:var(--themeColor);
+		height:35px;
+		line-height:35px;
+		z-index:1;
+	}
+
+	.bis_content {
+		margin: 15px 2.5% 0px 2.5%;
+		width:95%;
+	}
+
+/* Data Container Accessories Ends */
