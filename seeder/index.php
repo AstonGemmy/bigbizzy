@@ -10,7 +10,7 @@
   try{
     $count = 5;
     //Connecting MySQL Database
-    $pdo  = new PDO('mysql:host=localhost;dbname=bigbizzy', 'root', '@kleezpass01', array(
+    $pdo  = new PDO('mysql:host=localhost;dbname=bigbizzy', 'root', '', array(
       PDO::ATTR_PERSISTENT => true
     ));
     $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
