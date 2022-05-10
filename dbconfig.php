@@ -15,7 +15,7 @@
 		private $host = "localhost";
 		private $db_name = "bigbizzy";
 		private $username = "root";
-		private $password = "@kleezpass01";
+		private $password = "";
 		public $conn;		
 		//	Database connection function
 		public function dbConnection() {
